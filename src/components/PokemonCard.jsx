@@ -1,14 +1,21 @@
 import styles from "./PokemonCard.module.css";
 
-export function PokemonCard() {
+export function PokemonCard({ props }) {
+  console.log(props);
+  const pokemon = pokemonList[1];
+
   return (
     <figure className={styles.card}>
-      <img
-        src="https://solomonk.fr/img/classes/CRA.png"
-        alt="Crâ"
-        className={styles.cardImg}
-      />
-      <figcaption>squirtle</figcaption>
+      {pokemon.imgSrc ? (
+        <img
+          src={pokemon.imgSrc}
+          alt={pokemon.name}
+          className={styles.cardImg}
+        />
+      ) : (
+        <p>???</p>
+      )}
+      <figcaption>{pokemon.name}</figcaption>
     </figure>
   );
 }
