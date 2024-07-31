@@ -1,9 +1,7 @@
 import styles from "./PokemonCard.module.css";
 
-export function PokemonCard({ props }) {
-  console.log(props);
-  const pokemon = pokemonList[1];
-
+export function PokemonCard() {
+  const pokemon = pokemonList[0];
   return (
     <figure className={styles.card}>
       {pokemon.imgSrc ? (
