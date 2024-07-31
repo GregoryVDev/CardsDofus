@@ -1,14 +1,24 @@
-import React from "react";
+import styles from "./PokemonCard.module.css";
 
-export const PokemonCard = () => {
+export function PokemonCard() {
   return (
-    <>
-      <figure>
-        <img src="https://solomonk.fr/img/classes/CRA.png" alt="Crâ" />
-        <figcaption>
-          <h3>Bulbasaur</h3>
-        </figcaption>
-      </figure>
-    </>
+    <figure className={styles.card}>
+      <img
+        src="https://solomonk.fr/img/classes/CRA.png"
+        alt="Crâ"
+        className={styles.cardImg}
+      />
+      <figcaption>squirtle</figcaption>
+    </figure>
   );
-};
+}
+
+const pokemonList = [
+  {
+    name: "squirtle",
+    imgSrc: "https://solomonk.fr/img/classes/CRA.png",
+  },
+  {
+    name: "mew",
+  },
+];
