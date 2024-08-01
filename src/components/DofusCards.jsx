@@ -1,5 +1,3 @@
-import { Title } from "./Title";
-
 export const DofusCards = ({ dofus }) => {
   return (
     <>

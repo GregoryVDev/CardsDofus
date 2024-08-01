@@ -2,6 +2,8 @@ import React from "react";
 import { DofusCards } from "./components/DofusCards";
 import "./App.css";
 import { Title } from "./components/Title";
+import { MonstresCards } from "./components/MonstresCards";
+
 const dofusList = [
   {
     container: "card-cra",
@@ -333,6 +335,145 @@ const dofusList = [
   },
 ];
 
+const monstreList = [
+  {
+    container: "card-grozilla",
+    name: "Grozilla",
+    imgSrc: "https://solomonk.fr/img/monsters/artworks/1503.svg",
+    vita: "https://solomonk.fr/img/icons/Vita.svg",
+    vitanum: 100000,
+    chance: "https://solomonk.fr/img/icons/WaterBonus.svg",
+    eaunum: 5000,
+    agil: "https://solomonk.fr/img/icons/AirBonus.svg",
+    aginum: 6000,
+    intel: "https://solomonk.fr/img/icons/FireBonus.svg",
+    feunum: 5000,
+    force: "https://solomonk.fr/img/icons/EarthBonus.svg",
+    terrenum: 5000,
+    resisneutre: "https://retro.dofusbook.net/assets/rn-CtiY7Xgx.png",
+    neutrenumb: "50%",
+  },
+  {
+    container: "card-grasmera",
+    name: "Grasmera",
+    imgSrc: "https://solomonk.fr/img/monsters/artworks/1508.svg",
+    vita: "https://solomonk.fr/img/icons/Vita.svg",
+    vitanum: 100000,
+    chance: "https://solomonk.fr/img/icons/WaterBonus.svg",
+    eaunum: 5000,
+    agil: "https://solomonk.fr/img/icons/AirBonus.svg",
+    aginum: 6000,
+    intel: "https://solomonk.fr/img/icons/FireBonus.svg",
+    feunum: 5000,
+    force: "https://solomonk.fr/img/icons/EarthBonus.svg",
+    terrenum: 5000,
+    resisneutre: "https://retro.dofusbook.net/assets/rn-CtiY7Xgx.png",
+    neutrenumb: "50%",
+  },
+  {
+    container: "card-fan",
+    name: "Preskapwal le Tendancieux",
+    imgSrc: "https://solomonk.fr/img/monsters/artworks/1292.svg",
+    vita: "https://solomonk.fr/img/icons/Vita.svg",
+    vitanum: 16000,
+    chance: "https://solomonk.fr/img/icons/WaterBonus.svg",
+    eaunum: 0,
+    agil: "https://solomonk.fr/img/icons/AirBonus.svg",
+    aginum: 0,
+    intel: "https://solomonk.fr/img/icons/FireBonus.svg",
+    feunum: 0,
+    force: "https://solomonk.fr/img/icons/EarthBonus.svg",
+    terrenum: 0,
+    resisneutre: "https://retro.dofusbook.net/assets/rn-CtiY7Xgx.png",
+    neutrenumb: "25%",
+  },
+  {
+    container: "card-ougah",
+    name: "Ougah",
+    imgSrc: "https://solomonk.fr/img/monsters/artworks/1258.svg",
+    vita: "https://solomonk.fr/img/icons/Vita.svg",
+    vitanum: 16000,
+    chance: "https://solomonk.fr/img/icons/WaterBonus.svg",
+    eaunum: 800,
+    agil: "https://solomonk.fr/img/icons/AirBonus.svg",
+    aginum: 800,
+    intel: "https://solomonk.fr/img/icons/FireBonus.svg",
+    feunum: 800,
+    force: "https://solomonk.fr/img/icons/EarthBonus.svg",
+    terrenum: 800,
+    resisneutre: "https://retro.dofusbook.net/assets/rn-CtiY7Xgx.png",
+    neutrenumb: "33%",
+  },
+  {
+    container: "card-qutan",
+    name: "Qu'tan",
+    imgSrc: "https://solomonk.fr/img/monsters/artworks/1665.svg",
+    vita: "https://solomonk.fr/img/icons/Vita.svg",
+    vitanum: 13000,
+    chance: "https://solomonk.fr/img/icons/WaterBonus.svg",
+    eaunum: 300,
+    agil: "https://solomonk.fr/img/icons/AirBonus.svg",
+    aginum: 300,
+    intel: "https://solomonk.fr/img/icons/FireBonus.svg",
+    feunum: 300,
+    force: "https://solomonk.fr/img/icons/EarthBonus.svg",
+    terrenum: 300,
+    resisneutre: "https://retro.dofusbook.net/assets/rn-CtiY7Xgx.png",
+    neutrenumb: "35%",
+  },
+  {
+    container: "card-ily",
+    name: "Ilyzaelle",
+    imgSrc: "https://solomonk.fr/img/monsters/artworks/8036.svg",
+    vita: "https://solomonk.fr/img/icons/Vita.svg",
+    vitanum: 13000,
+    chance: "https://solomonk.fr/img/icons/WaterBonus.svg",
+    eaunum: 300,
+    agil: "https://solomonk.fr/img/icons/AirBonus.svg",
+    aginum: 1200,
+    intel: "https://solomonk.fr/img/icons/FireBonus.svg",
+    feunum: 300,
+    force: "https://solomonk.fr/img/icons/EarthBonus.svg",
+    terrenum: 300,
+    resisneutre: "https://retro.dofusbook.net/assets/rn-CtiY7Xgx.png",
+    neutrenumb: "33%",
+  },
+  {
+    container: "card-croca",
+    name: "Crocabulia",
+    imgSrc: "https://solomonk.fr/img/monsters/artworks/1451.svg",
+    vita: "https://solomonk.fr/img/icons/Vita.svg",
+    vitanum: 10000,
+    chance: "https://solomonk.fr/img/icons/WaterBonus.svg",
+    eaunum: 9999,
+    agil: "https://solomonk.fr/img/icons/AirBonus.svg",
+    aginum: 300,
+    intel: "https://solomonk.fr/img/icons/FireBonus.svg",
+    feunum: 300,
+    force: "https://solomonk.fr/img/icons/EarthBonus.svg",
+    terrenum: 20,
+    resisneutre: "https://retro.dofusbook.net/assets/rn-CtiY7Xgx.png",
+    neutrenumb: "20%",
+  },
+  {
+    container: "card-krala",
+    name: "Kralamoure Géant",
+    imgSrc: "https://solomonk.fr/img/monsters/artworks/1635.svg",
+    vita: "https://solomonk.fr/img/icons/Vita.svg",
+    vitanum: 4600,
+    chance: "https://solomonk.fr/img/icons/WaterBonus.svg",
+    eaunum: 2000,
+    agil: "https://solomonk.fr/img/icons/AirBonus.svg",
+    aginum: 2000,
+    intel: "https://solomonk.fr/img/icons/FireBonus.svg",
+    feunum: 2000,
+    force: "https://solomonk.fr/img/icons/EarthBonus.svg",
+    terrenum: 2000,
+    resisneutre: "https://retro.dofusbook.net/assets/rn-CtiY7Xgx.png",
+    neutrenumb: "900%",
+  },
+];
+
 export function App() {
   return (
     <>
@@ -348,6 +489,9 @@ export function App() {
         {dofusList.map((dofus, index) => (
           <DofusCards key={index} dofus={dofus} />
         ))}
+        {monstreList.map((mob, index) => {
+          <MonstresCards key={index} mob={mob} />;
+        })}
       </div>
     </>
   );

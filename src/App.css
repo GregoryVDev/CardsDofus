@@ -84,36 +84,47 @@
 .card-cra {
   background-color: #e49922;
 }
+
 .card-eca {
   background-color: #526cb8;
 }
+
 .card-eni {
   background-color: #9b9802;
 }
+
 .card-enu {
   background-color: #665943;
 }
+
 .card-feca {
   background-color: #fc9827;
 }
+
 .card-iop {
   background-color: #fe6027;
 }
+
 .card-osa {
   background-color: #474e7c;
 }
+
 .card-panda {
   background-color: #6a6545;
 }
+
 .card-sacri {
   background-color: #b09e3f;
 }
+
 .card-sadi {
   background-color: #afc114;
 }
+
 .card-sram {
   background-color: #7177bb;
 }
+
 .card-xel {
   background-color: #6470c2;
 }
@@ -149,4 +160,55 @@
   display: flex;
   justify-content: center;
   gap: 10px;
+}
+
+.card-grozilla,
+.card-grasmera,
+.card-fan,
+.card-ougah,
+.card-qutan,
+.card-ily,
+.card-croca,
+.card-krala {
+  width: 300px;
+  height: auto;
+  padding: 1rem;
+  border-radius: 5px;
+  box-shadow: 0px 0px 5px gray;
+  color: white;
+  font-size: 1.6rem;
+  text-align: center;
+  text-shadow: 0px 0px 5px gray;
+}
+
+.card-grozilla {
+  background-color: #585249;
+}
+
+.card-grasmera {
+  background-color: #8a8573;
+}
+
+.card-fan {
+  background-color: #76933d;
+}
+
+.card-ougah {
+  background-color: #b08f46;
+}
+
+.card-qutan {
+  background-color: #c8ab37;
+}
+
+.card-ily {
+  background-color: #c6cbee;
+}
+
+.card-croca {
+  background-color: #7e0000;
+}
+
+.card-krala {
+  background-color: #b07601;
 }
