@@ -337,6 +337,24 @@ const dofusList = [
 
 const monstreList = [
   {
+    container: "card-krala",
+    name: "Krala Géant",
+    imgSrc: "https://solomonk.fr/img/monsters/artworks/1635.svg",
+    vita: "https://solomonk.fr/img/icons/Vita.svg",
+    vitanum: 4600,
+    chance: "https://solomonk.fr/img/icons/WaterBonus.svg",
+    eaunum: 2000,
+    agil: "https://solomonk.fr/img/icons/AirBonus.svg",
+    aginum: 2000,
+    intel: "https://solomonk.fr/img/icons/FireBonus.svg",
+    feunum: 2000,
+    force: "https://solomonk.fr/img/icons/EarthBonus.svg",
+    terrenum: 2000,
+    imgResSrc:
+      "https://upload.wikimedia.org/wikipedia/commons/thumb/4/44/U%2B262F.svg/180px-U%2B262F.svg.png",
+    neutrenumb: "900%",
+  },
+  {
     container: "card-grozilla",
     name: "Grozilla",
     imgSrc: "https://solomonk.fr/img/monsters/artworks/1503.svg",
@@ -350,7 +368,8 @@ const monstreList = [
     feunum: 5000,
     force: "https://solomonk.fr/img/icons/EarthBonus.svg",
     terrenum: 5000,
-    resisneutre: "https://retro.dofusbook.net/assets/rn-CtiY7Xgx.png",
+    imgResSrc:
+      "https://upload.wikimedia.org/wikipedia/commons/thumb/4/44/U%2B262F.svg/180px-U%2B262F.svg.png",
     neutrenumb: "50%",
   },
   {
@@ -367,59 +386,9 @@ const monstreList = [
     feunum: 5000,
     force: "https://solomonk.fr/img/icons/EarthBonus.svg",
     terrenum: 5000,
-    resisneutre: "https://retro.dofusbook.net/assets/rn-CtiY7Xgx.png",
+    imgResSrc:
+      "https://upload.wikimedia.org/wikipedia/commons/thumb/4/44/U%2B262F.svg/180px-U%2B262F.svg.png",
     neutrenumb: "50%",
-  },
-  {
-    container: "card-fan",
-    name: "Preskapwal le Tendancieux",
-    imgSrc: "https://solomonk.fr/img/monsters/artworks/1292.svg",
-    vita: "https://solomonk.fr/img/icons/Vita.svg",
-    vitanum: 16000,
-    chance: "https://solomonk.fr/img/icons/WaterBonus.svg",
-    eaunum: 0,
-    agil: "https://solomonk.fr/img/icons/AirBonus.svg",
-    aginum: 0,
-    intel: "https://solomonk.fr/img/icons/FireBonus.svg",
-    feunum: 0,
-    force: "https://solomonk.fr/img/icons/EarthBonus.svg",
-    terrenum: 0,
-    resisneutre: "https://retro.dofusbook.net/assets/rn-CtiY7Xgx.png",
-    neutrenumb: "25%",
-  },
-  {
-    container: "card-ougah",
-    name: "Ougah",
-    imgSrc: "https://solomonk.fr/img/monsters/artworks/1258.svg",
-    vita: "https://solomonk.fr/img/icons/Vita.svg",
-    vitanum: 16000,
-    chance: "https://solomonk.fr/img/icons/WaterBonus.svg",
-    eaunum: 800,
-    agil: "https://solomonk.fr/img/icons/AirBonus.svg",
-    aginum: 800,
-    intel: "https://solomonk.fr/img/icons/FireBonus.svg",
-    feunum: 800,
-    force: "https://solomonk.fr/img/icons/EarthBonus.svg",
-    terrenum: 800,
-    resisneutre: "https://retro.dofusbook.net/assets/rn-CtiY7Xgx.png",
-    neutrenumb: "33%",
-  },
-  {
-    container: "card-qutan",
-    name: "Qu'tan",
-    imgSrc: "https://solomonk.fr/img/monsters/artworks/1665.svg",
-    vita: "https://solomonk.fr/img/icons/Vita.svg",
-    vitanum: 13000,
-    chance: "https://solomonk.fr/img/icons/WaterBonus.svg",
-    eaunum: 300,
-    agil: "https://solomonk.fr/img/icons/AirBonus.svg",
-    aginum: 300,
-    intel: "https://solomonk.fr/img/icons/FireBonus.svg",
-    feunum: 300,
-    force: "https://solomonk.fr/img/icons/EarthBonus.svg",
-    terrenum: 300,
-    resisneutre: "https://retro.dofusbook.net/assets/rn-CtiY7Xgx.png",
-    neutrenumb: "35%",
   },
   {
     container: "card-ily",
@@ -435,9 +404,65 @@ const monstreList = [
     feunum: 300,
     force: "https://solomonk.fr/img/icons/EarthBonus.svg",
     terrenum: 300,
-    resisneutre: "https://retro.dofusbook.net/assets/rn-CtiY7Xgx.png",
+    imgResSrc:
+      "https://upload.wikimedia.org/wikipedia/commons/thumb/4/44/U%2B262F.svg/180px-U%2B262F.svg.png",
     neutrenumb: "33%",
   },
+  {
+    container: "card-fan",
+    name: "Preskapwal",
+    imgSrc: "https://solomonk.fr/img/monsters/artworks/1292.svg",
+    vita: "https://solomonk.fr/img/icons/Vita.svg",
+    vitanum: 16000,
+    chance: "https://solomonk.fr/img/icons/WaterBonus.svg",
+    eaunum: 0,
+    agil: "https://solomonk.fr/img/icons/AirBonus.svg",
+    aginum: 0,
+    intel: "https://solomonk.fr/img/icons/FireBonus.svg",
+    feunum: 0,
+    force: "https://solomonk.fr/img/icons/EarthBonus.svg",
+    terrenum: 0,
+    imgResSrc:
+      "https://upload.wikimedia.org/wikipedia/commons/thumb/4/44/U%2B262F.svg/180px-U%2B262F.svg.png",
+    neutrenumb: "25%",
+  },
+  {
+    container: "card-qutan",
+    name: "Qu'tan",
+    imgSrc: "https://solomonk.fr/img/monsters/artworks/1665.svg",
+    vita: "https://solomonk.fr/img/icons/Vita.svg",
+    vitanum: 13000,
+    chance: "https://solomonk.fr/img/icons/WaterBonus.svg",
+    eaunum: 300,
+    agil: "https://solomonk.fr/img/icons/AirBonus.svg",
+    aginum: 300,
+    intel: "https://solomonk.fr/img/icons/FireBonus.svg",
+    feunum: 300,
+    force: "https://solomonk.fr/img/icons/EarthBonus.svg",
+    terrenum: 300,
+    imgResSrc:
+      "https://upload.wikimedia.org/wikipedia/commons/thumb/4/44/U%2B262F.svg/180px-U%2B262F.svg.png",
+    neutrenumb: "35%",
+  },
+  {
+    container: "card-ougah",
+    name: "Ougah",
+    imgSrc: "https://solomonk.fr/img/monsters/artworks/1258.svg",
+    vita: "https://solomonk.fr/img/icons/Vita.svg",
+    vitanum: 16000,
+    chance: "https://solomonk.fr/img/icons/WaterBonus.svg",
+    eaunum: 800,
+    agil: "https://solomonk.fr/img/icons/AirBonus.svg",
+    aginum: 800,
+    intel: "https://solomonk.fr/img/icons/FireBonus.svg",
+    feunum: 800,
+    force: "https://solomonk.fr/img/icons/EarthBonus.svg",
+    terrenum: 800,
+    imgResSrc:
+      "https://upload.wikimedia.org/wikipedia/commons/thumb/4/44/U%2B262F.svg/180px-U%2B262F.svg.png",
+    neutrenumb: "33%",
+  },
+
   {
     container: "card-croca",
     name: "Crocabulia",
@@ -452,31 +477,35 @@ const monstreList = [
     feunum: 300,
     force: "https://solomonk.fr/img/icons/EarthBonus.svg",
     terrenum: 20,
-    resisneutre: "https://retro.dofusbook.net/assets/rn-CtiY7Xgx.png",
+    imgResSrc:
+      "https://upload.wikimedia.org/wikipedia/commons/thumb/4/44/U%2B262F.svg/180px-U%2B262F.svg.png",
     neutrenumb: "20%",
   },
+
   {
-    container: "card-krala",
-    name: "Kralamoure Géant",
-    imgSrc: "https://solomonk.fr/img/monsters/artworks/1635.svg",
+    container: "card-kimbo",
+    name: "Kimbo",
+    imgSrc: "https://solomonk.fr/img/monsters/artworks/1623.svg",
     vita: "https://solomonk.fr/img/icons/Vita.svg",
-    vitanum: 4600,
+    vitanum: 9000,
     chance: "https://solomonk.fr/img/icons/WaterBonus.svg",
-    eaunum: 2000,
+    eaunum: 9999,
     agil: "https://solomonk.fr/img/icons/AirBonus.svg",
-    aginum: 2000,
+    aginum: 650,
     intel: "https://solomonk.fr/img/icons/FireBonus.svg",
-    feunum: 2000,
+    feunum: 600,
     force: "https://solomonk.fr/img/icons/EarthBonus.svg",
-    terrenum: 2000,
-    resisneutre: "https://retro.dofusbook.net/assets/rn-CtiY7Xgx.png",
-    neutrenumb: "900%",
+    terrenum: 600,
+    imgResSrc:
+      "https://upload.wikimedia.org/wikipedia/commons/thumb/4/44/U%2B262F.svg/180px-U%2B262F.svg.png",
+    neutrenumb: "400%",
   },
 ];
 
 export function App() {
   return (
     <>
+      <img src="../public/dofus.png" alt="Dofus" className="oeufs" />
       <div className="title-container">
         <Title titre="Le monde des douzes" />
       </div>
@@ -489,10 +518,21 @@ export function App() {
         {dofusList.map((dofus, index) => (
           <DofusCards key={index} dofus={dofus} />
         ))}
-        {monstreList.map((mob, index) => {
-          <MonstresCards key={index} mob={mob} />;
-        })}
       </div>
+      <div className="title-container">
+        <Title titre="Le monde des monstres" />
+      </div>
+      <img
+        src="https://www.dofuspourlesnoobs.com/uploads/1/3/0/1/13010384/custom_themes/586567114324766674/files/tutorials/dofus/illus/vulbis.png"
+        alt="Dofus"
+        className="dofus"
+      />
+      <div className="containerDofus">
+        {monstreList.map((mob, index) => (
+          <MonstresCards key={index} mob={mob} />
+        ))}
+      </div>
+      <img src="../public/dofus.png" alt="Dofus" className="oeufs" />
     </>
   );
 }

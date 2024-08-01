@@ -1,5 +1,3 @@
-import React from "react";
-
 export const MonstresCards = ({ mob }) => {
   return (
     <>
@@ -42,15 +40,18 @@ export const MonstresCards = ({ mob }) => {
                 <div className="number">
                   <span>{mob.terrenum}</span>
                 </div>
-                <div className="stats">
-                  <img
-                    src={mob.resisneutre}
-                    alt="Resistances"
-                    className="img-element"
-                  />
-                  <div className="number">
-                    <span>{mob.neutrenumb}</span>
-                  </div>
+              </div>
+              <div className="title-container">
+                <h3>Resistances</h3>
+              </div>
+              <div className="stats">
+                <img
+                  src={mob.imgResSrc}
+                  alt="Resistances"
+                  className="img-element"
+                />
+                <div className="number">
+                  <span>{mob.neutrenumb}</span>
                 </div>
               </div>
             </div>

@@ -42,6 +42,10 @@
   width: 100px;
 }
 
+.oeufs {
+  margin-top: 50px;
+}
+
 .card-img {
   width: 100%;
   height: 300px;
@@ -169,7 +173,8 @@
 .card-qutan,
 .card-ily,
 .card-croca,
-.card-krala {
+.card-krala,
+.card-kimbo {
   width: 300px;
   height: auto;
   padding: 1rem;
@@ -211,4 +216,8 @@
 
 .card-krala {
   background-color: #b07601;
+}
+
+.card-kimbo {
+  background-color: #a44c12;
 }
