@@ -129,3 +129,13 @@
   gap: 10px;
   text-align: left;
 }
+
+.number {
+  margin-bottom: 5px;
+}
+
+.stats {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
