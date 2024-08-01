@@ -57,6 +57,24 @@ export const DofusCards = ({ dofus }) => {
                 </div>
               </div>
             </div>
+            <div className="title-container">
+              <h3>Armes de prédilection</h3>
+              <div className="container-weapon">
+                <img src={dofus.weapon1} alt="Weapon" className="weapon" />
+                <img src={dofus.weapon2} alt="Weapon" className="weapon" />
+              </div>
+            </div>
+            <div className="title-container">
+              <h3>Sorts</h3>
+            </div>
+            <div className="sorts">
+              <img src={dofus.sort1} alt="Sort" />
+              <img src={dofus.sort2} alt="Sort" />
+              <img src={dofus.sort3} alt="Sort" />
+              <img src={dofus.sort4} alt="Sort" />
+              <img src={dofus.sort5} alt="Sort" />
+              <img src={dofus.sort6} alt="Sort" />
+            </div>
           </figcaption>
         </figure>
       </div>
