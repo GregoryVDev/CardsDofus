@@ -12,6 +12,9 @@ export const DofusCards = ({ dofus }) => {
           )}
           <figcaption>
             <h2>{dofus.name}</h2>
+            <div className="content">
+              <p>{dofus.description}</p>
+            </div>
             <div className="containerCara">
               <img src={dofus.vita} alt="Vita" className="img-element" />
               <img src={dofus.chance} alt="Eau" className="img-element" />
