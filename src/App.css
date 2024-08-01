@@ -144,3 +144,9 @@
   width: 100px;
   height: 100px;
 }
+
+.sorts {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}

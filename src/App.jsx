@@ -8,7 +8,7 @@ const dofusList = [
     name: "Crâ",
     imgSrc: "https://solomonk.fr/img/classes/CRA.png",
     description:
-      "Les Crâs sont des Archers aussi fiers que précis ! Ils font des alliés précieux contre les adeptes de la mêlée franche. Restant à distance, décochant leurs traits empennés dans le moindre orifice laissé sans surveillance, ils s'y entendent pour faire des dégâts !",
+      "Les Crâs sont des Archers aussi fiers que précis ! Ils font des alliés précieux contre les adeptes de la mêlée franche. Restant à distance, décochant leurs traits empennés dans le moindre orifice laissé sans surveillance, ils s'y entendent pour faire des dégâts ! Ce n'est pas n'importe quel dégâts, ce sont des très gros dégâts !",
     vita: "https://solomonk.fr/img/icons/Vita.svg",
     vitanum: 3851,
     chance: "https://solomonk.fr/img/icons/WaterBonus.svg",
@@ -62,7 +62,7 @@ const dofusList = [
     name: "Eniripsa",
     imgSrc: "https://solomonk.fr/img/classes/ENIRIPSA.png",
     description:
-      "Les Eniripsas sont des Soigneurs qui guérissent d'un simple Mot. Ils les utilisent surtout pour soigner leurs alliés, mais parfois aussi pour blesser leurs ennemis. Parmi eux, certains sont même devenus chasseurs de mots, arpenteurs du verbe, ou rôdeurs des langues oubliées.",
+      "Les Eniripsas sont des Soigneurs qui guérissent d'un simple Mot. Ils les utilisent surtout pour soigner leurs alliés, mais parfois aussi pour blesser leurs ennemis. Parmi eux, certains sont même devenus chasseurs de mots, arpenteurs du verbe, ou rôdeurs des langues oubliées. Ils feront tout ce qu'ils peuvent pour vous sauver.",
     vita: "https://solomonk.fr/img/icons/Vita.svg",
     vitanum: 3803,
     chance: "https://solomonk.fr/img/icons/WaterBonus.svg",
@@ -89,7 +89,7 @@ const dofusList = [
     name: "Enutrof",
     imgSrc: "https://solomonk.fr/img/classes/ENUTROF.png",
     description:
-      "Les Enutrofs sont des Chasseurs de trésor invétérés ! Ils sont intéressés par toute denrée, objet, ou créature dont ils pourront tirer des kamas. La première chose que fait un Enutrof lorsqu'il rencontre un autre aventurier, c'est de le soupeser du regard. C'est vrai : aux yeux d'un Enutrof, un aventurier, c'est une créature chargée de denrées, et bardée d'objets... revendables !",
+      "Les Enutrofs sont des Chasseurs de trésor invétérés ! Ils sont intéressés par toute denrée, objet, ou créature dont ils pourront tirer de l'argent. La première chose que fait un Enutrof lorsqu'il rencontre un autre aventurier, c'est de le soupeser du regard. C'est vrai : aux yeux d'un Enutrof, un aventurier, c'est une créature chargée et bardée d'objets... revendables !",
     vita: "https://solomonk.fr/img/icons/Vita.svg",
     vitanum: 3701,
     chance: "https://solomonk.fr/img/icons/WaterBonus.svg",
@@ -170,7 +170,7 @@ const dofusList = [
     name: "Osamodas",
     imgSrc: "https://solomonk.fr/img/classes/OSAMODAS.png",
     description:
-      "Les Osamodas sont des Invocateurs nés ! Ils ont le pouvoir d'invoquer des créatures et sont de remarquables dresseurs. Une rumeur prétend qu'ils taillent leurs vêtements dans la peau de leurs ennemis, mais allez donc leur demander ce qu'il en est... Vous verrez bien si vous terminez votre vie sous la forme d'une botte ou d'un bonnet fourré.",
+      "Les Osamodas sont des Invocateurs nés ! Ils ont le pouvoir d'invoquer des créatures et sont de remarquables dresseurs. Une rumeur prétend qu'ils taillent leurs vêtements dans la peau de leurs ennemis, mais allez donc leur demander ce qu'il en est... Vous verrez bien si vous terminez votre vie sous la forme d'une botte.",
     vita: "https://solomonk.fr/img/icons/Vita.svg",
     vitanum: 4175,
     vita: "https://solomonk.fr/img/icons/Vita.svg",
